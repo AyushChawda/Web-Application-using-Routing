@@ -1,7 +1,47 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Home Controller</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Home </h1>
+        <p>Welcome to the home page! This is where you can find the latest updates and information.</p>
+    </div>
+</body>
+</html>
